@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+.container {
+    /* rgb(red, green, blue) -> (0-255) -> can make any color */
+    background-color: rgb(255,255,255);
+    padding: 20px 0px; /* 20px -> top-bottom; 0px -> left-right*/
+}
+.colorname {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.marker{
+    margin: 20px auto;
+    width: 200px;
+    height: 30px;
+}
+.red {
+    background-color: rgb(255,0,0);
+}
+.green {
+    background-color: rgb(0,255,0);
+}
+.blue {
+    background-color: rgb(0,0,255);
+}
+.cap {
+    width: 20px;
+    height: 30px;
+}
+.sleeve {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.5);
+    border-left: 10px double rgba(0,0,0,0.75);
+    border-right: 10px double rgba(0,0,0,0.75);
+}
+.cap,.sleeve {
+    display: inline-block;
+}
+
